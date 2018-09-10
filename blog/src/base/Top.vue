@@ -11,13 +11,11 @@
       <img src="../assets/banner1.png" alt="" class="imgSize imgbanner1" style="width: 100%">
     </div>
 </template>
-
 <script>
     export default {
         name: "top"
     }
 </script>
-
 <style scoped>
   .topDiv{
     width: 100%;
@@ -33,37 +31,37 @@
   }
   .topDiv div:nth-child(1){
     position: absolute;
-    left: 700px;
+    left: 35%;
     animation: L 1s linear ;
   }
   .topDiv div:nth-child(2){
     position: absolute;
-    left: 760px;
+    left: 39%;
     animation: I 1s linear ;
   }
   .topDiv div:nth-child(3){
     position: absolute;
-    left: 820px;
+    left: 42%;
     animation: Y 1s linear ;
   }
   .topDiv div:nth-child(4){
     position: absolute;
-    left: 880px;
+    left: 46%;
     animation: U1 1s linear ;
   }
   .topDiv div:nth-child(5){
     position: absolute;
-    left: 940px;
+    left: 50%;
     animation: S 1s linear ;
   }
   .topDiv div:nth-child(6){
     position: absolute;
-    left: 1000px;
+    left: 54%;
     animation: U2 1s linear ;
   }
   .topDiv div:nth-child(7){
     position: absolute;
-    left: 1060px;
+    left: 58%;
     animation: O 1s linear ;
   }
   .imgbanner1{

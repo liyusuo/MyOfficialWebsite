@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <Tab></Tab>
     <Top></Top>
-
+    <Tab></Tab>
   </div>
 </template>
 
@@ -26,9 +25,6 @@ export default {
 
 <style>
 #app {
-  *{
-    padding: 0;
-    margin: 0;
-  }
+  min-width: 1000px;
 }
 </style>
