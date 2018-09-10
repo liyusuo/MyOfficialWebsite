@@ -1,12 +1,14 @@
 <template>
     <div class="topDiv">
-      <div>L</div>
+      <!--<div>L</div>
       <div>i</div>
       <div>Y</div>
       <div>u</div>
       <div>S</div>
       <div>u</div>
-      <div>o</div>
+      <div>o</div>-->
+      <img src="../assets/banner2.jpg" alt="" class="imgSize" style="width: 100%">
+      <img src="../assets/banner1.png" alt="" class="imgSize imgbanner1" style="width: 100%">
     </div>
 </template>
 
@@ -19,9 +21,9 @@
 <style scoped>
   .topDiv{
     width: 100%;
-    height: 200px;
+    height: auto;
     position: relative;
-    background-color: rgba(116,173,170,0.8);
+
   }
   .topDiv div{
     position: absolute;
@@ -64,9 +66,29 @@
     left: 1060px;
     animation: O 1s linear ;
   }
+  .imgbanner1{
+    position: absolute;
+    top: 0px;
+    opacity: 0.2;
+    animation: imgBanner1 2.5s  ease-out  infinite  alternate;
+
+  }
+  .imgSize{
+    min-height: 560px;
+    min-width: 1679px;
+  }
+  @keyframes imgBanner1 {
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+
+  }
   @keyframes L {
     0%{
-      left: 0px;
+      left: 0.2px;
     }
     100%{
       left: 700px;

@@ -99,14 +99,18 @@
     list-style: none;
   }
   .navBox{
-    background: linear-gradient(to right,#cfe3e2 ,rgba(116,173,170,1) );
+    width: 100%;
+    background: linear-gradient(to right,rgba(255,255,255,0.1) ,rgba(255,255,255,0.2) );
     background-size: 200%;
     background-position:-200% 0%;
     animation:gradient 15s cubic-bezier(0.5,0.5,1,0.3) infinite;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 
   }
   #nav{
-    background-color: rgba(116,173,170,0.6);
+    background-color: rgba(32,35,44,0);
 
   }
   @keyframes gradient{
@@ -128,7 +132,7 @@
   .nav-menu > li {
     display: inline;
     float: left;
-    border-right: 1px solid #94c0be;
+    border-right: 1px solid rgba(32,35,44,0.6);
   }
   .nav-menu > li:last-child {
     border-right: none;
@@ -311,7 +315,7 @@
 
     left: 0;
 
-    background-color: rgba(116, 173, 170,0.8);
+    background-color: rgba(0, 0, 0,0.8);
 
     padding: 15px 30px 15px 31px;
 
@@ -340,7 +344,7 @@
   .nav-menu li a:hover .front,
   .nav-menu li a:hover .back {
 
-    background-color: #51938f;
+    background-color: black;
 
     -webkit-background-size: 5px 5px;
 
@@ -348,7 +352,7 @@
 
     background-position: 0 0, 30px 30px;
 
-    background-image: -webit-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
+   /* background-image: -webit-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
 
     background-image: -moz-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
 
@@ -356,8 +360,8 @@
 
     background-image: -o-linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
 
-    background-image: linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
-
+    background-image: linear-gradient(45deg, #666666 25%, transparent 25%, transparent 75%, #666666 75%, #478480), linear-gradient(45deg, #478480 25%, transparent 25%, transparent 75%, #478480 75%, #478480);
+*/
   }
 
   .nav-menu ul {
