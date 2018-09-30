@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <Top></Top>
+
     <Tab></Tab>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -25,6 +26,8 @@ export default {
 
 <style>
 #app {
-  min-width: 1000px;
+  min-width: 1350px;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  color: #333;
 }
 </style>

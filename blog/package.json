@@ -13,6 +13,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "element-ui": "^2.4.7",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
     "shell.js": "^3.0.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
